@@ -48,4 +48,4 @@ jobs:
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -d '{"title": "Security Issue: " + issue, "body": "Description: This issue was detected by SARIF scan. Please review.", "labels": ["security", "vulnerability"]}' \
               https://api.github.com/repos/${{ github.repository }}/issues
-          done
+          done 
