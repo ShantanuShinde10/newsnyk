@@ -17,4 +17,4 @@ os.system('echo "This is a vulnerable file" > vulnerable_file.txt')
 
 username = input("Enter your username: ")
 if username == 'admin':
-    print("Welcome, admin!")
+    print("Welcome, admin!") 
